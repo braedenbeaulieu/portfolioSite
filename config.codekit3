@@ -350,7 +350,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/personal\/README.md": {
+	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -359,7 +359,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/personal\/README.html",
+		"oAP": "\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
