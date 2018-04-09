@@ -1,0 +1,76 @@
+#contact
+	width: 100%
+	margin: 0 auto 70px
+		
+
+	#sentMessage
+		height: 500px
+		padding-top: 200px
+		color: $grey
+		font-size: 2em
+		text-align: center
+
+		a
+			color: $p-colour
+			text-decoration: underline
+
+	#contact-container
+		width: 400px
+		margin: 0 auto
+		background: rgba(0, 0, 0, .1)
+		border-radius: 4px
+		padding: 20px 10px
+
+		#contactForm
+			width: 350px
+			margin: 0 auto
+
+			input, textarea
+				width: 342px
+				height: 30px
+				margin: 10px auto
+				font-size: 1em
+				padding: 5px 5px
+				border: 1px solid #999
+
+			textarea
+				height: 200px
+
+			input[type='submit']
+				width: 100px
+				height: 40px
+				border: 1px solid $p-colour
+				border-radius: 3px
+				color: $p-colour
+				background: $white
+				transition: all .3s
+				display: block
+				margin: 0 auto
+
+				&:hover
+					cursor: pointer
+					background: $p-colour
+					color: white 
+
+@media screen and (max-width: 420px)
+	#contact
+		margin-bottom: 50px
+
+		#sentMessage
+			margin: 0 auto
+			padding-top: 50px
+			height: 380px
+			width: 80%
+
+		#contact-container
+			width: 90%
+			
+			#contactForm
+				width: 90%
+
+				input, textarea
+					width: 100%
+
+				textarea
+					height: 125px
+				
