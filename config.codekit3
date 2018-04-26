@@ -7,7 +7,7 @@
 		"uuidString": "E9B5E408-B55D-4753-BD89-51D64E457240"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -64,6 +64,7 @@
 	"\/images\/coolerDesigns.jpg": {
 		"ft": 16384,
 		"iS": 44481,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/coolerDesigns.jpg",
 		"oF": 0,
@@ -74,6 +75,7 @@
 	"\/images\/cornySampleResize.jpg": {
 		"ft": 16384,
 		"iS": 27110,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/cornySampleResize.jpg",
 		"oF": 0,
@@ -84,6 +86,7 @@
 	"\/images\/ElCapitanSampleResize.jpg": {
 		"ft": 16384,
 		"iS": 23022,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ElCapitanSampleResize.jpg",
 		"oF": 0,
@@ -101,6 +104,7 @@
 	"\/images\/HanDIY.jpg": {
 		"ft": 16384,
 		"iS": 85145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/HanDIY.jpg",
 		"oF": 0,
@@ -111,6 +115,7 @@
 	"\/images\/header.jpg": {
 		"ft": 16384,
 		"iS": 654959,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header.jpg",
 		"oF": 0,
@@ -132,6 +137,7 @@
 	"\/images\/logos\/assortedLines.jpg": {
 		"ft": 16384,
 		"iS": 82757,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/assortedLines.jpg",
 		"oF": 0,
@@ -142,6 +148,7 @@
 	"\/images\/logos\/assortedLinesWhite.jpg": {
 		"ft": 16384,
 		"iS": 55353,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/assortedLinesWhite.jpg",
 		"oF": 0,
@@ -173,6 +180,7 @@
 	"\/images\/logos\/assortedLinesWhitee.jpg": {
 		"ft": 16384,
 		"iS": 56994,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/assortedLinesWhitee.jpg",
 		"oF": 0,
@@ -183,6 +191,7 @@
 	"\/images\/logos\/assortedLinesWhiteResize.jpg": {
 		"ft": 16384,
 		"iS": 21424,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/assortedLinesWhiteResize.jpg",
 		"oF": 0,
@@ -193,6 +202,7 @@
 	"\/images\/lunaspressoSampleResize.jpg": {
 		"ft": 16384,
 		"iS": 66170,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/lunaspressoSampleResize.jpg",
 		"oF": 0,
@@ -203,6 +213,7 @@
 	"\/images\/personal1SampleResize.jpg": {
 		"ft": 16384,
 		"iS": 103470,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/personal1SampleResize.jpg",
 		"oF": 0,
@@ -213,6 +224,7 @@
 	"\/images\/personal2SampleResize.jpg": {
 		"ft": 16384,
 		"iS": 57073,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/personal2SampleResize.jpg",
 		"oF": 0,
@@ -223,6 +235,7 @@
 	"\/images\/personal3SampleResize.jpg": {
 		"ft": 16384,
 		"iS": 32207,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/personal3SampleResize.jpg",
 		"oF": 0,
@@ -233,6 +246,7 @@
 	"\/images\/PROjectorSampleResize.jpg": {
 		"ft": 16384,
 		"iS": 91150,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/PROjectorSampleResize.jpg",
 		"oF": 0,
@@ -243,6 +257,7 @@
 	"\/images\/screenshots\/cornySample.jpg": {
 		"ft": 16384,
 		"iS": 731964,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/cornySample.jpg",
 		"oF": 0,
@@ -253,6 +268,7 @@
 	"\/images\/screenshots\/ElCapitanSample.jpg": {
 		"ft": 16384,
 		"iS": 172770,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/ElCapitanSample.jpg",
 		"oF": 0,
@@ -263,6 +279,7 @@
 	"\/images\/screenshots\/lunaspressoSample.jpg": {
 		"ft": 16384,
 		"iS": 468651,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/lunaspressoSample.jpg",
 		"oF": 0,
@@ -273,6 +290,7 @@
 	"\/images\/screenshots\/personal1Sample.jpg": {
 		"ft": 16384,
 		"iS": 803860,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/personal1Sample.jpg",
 		"oF": 0,
@@ -283,6 +301,7 @@
 	"\/images\/screenshots\/personal2Sample.jpg": {
 		"ft": 16384,
 		"iS": 448829,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/personal2Sample.jpg",
 		"oF": 0,
@@ -293,6 +312,7 @@
 	"\/images\/screenshots\/personal3Sample.jpg": {
 		"ft": 16384,
 		"iS": 57425,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/personal3Sample.jpg",
 		"oF": 0,
@@ -303,6 +323,7 @@
 	"\/images\/screenshots\/PROjectorSample copy.jpg": {
 		"ft": 16384,
 		"iS": 708921,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/PROjectorSample copy.jpg",
 		"oF": 0,
@@ -313,6 +334,7 @@
 	"\/images\/screenshots\/waves.jpg": {
 		"ft": 16384,
 		"iS": 3810091,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/screenshots\/waves.jpg",
 		"oF": 0,
@@ -323,6 +345,7 @@
 	"\/images\/wavesResize.jpg": {
 		"ft": 16384,
 		"iS": 410969,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/wavesResize.jpg",
 		"oF": 0,
@@ -541,7 +564,8 @@
 	"creationDate": 531266608,
 	"displayValue": "personal",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-punDog"
+	"iconImageName": "meme-punDog",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2344,6 +2368,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
