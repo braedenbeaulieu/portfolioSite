@@ -35,44 +35,28 @@ $(document).ready(function() {
 		var position = $('#contact').offset().top; 
 		$('HTML, BODY').animate({ scrollTop: position - 70}, 500);
 	});
-
 	// *********************************
-
 	$(window).on('scroll', function() {
 		// close mobile nav if scrolling
 		if($(window).width() < 640) {
 			$('#nav').fadeOut();
 		}
-
 		// when you scroll up to the main page the nav disappears
 		var scrollTop = $(document).scrollTop();
 		// if youre at the top of the page the header should be transparent
 		if(scrollTop >= 550 && scrollTop <= 3000) {
 			$('header').fadeIn();
-			console.log('fade in');
 		} else if(scrollTop < 550) {
 			$('header').fadeOut();
-			console.log('fade out');
 		}
 	});
 
 	// ******* fade in scrolling *******
 	var aboutOffset = $('#about').offset().top;
 	$('header').hide();
-	// $('#about').hide();
-	// $('#portfolio').hide();
-	// $('#contact').hide();
-	// $('#socialMedia').hide();
-	// $('footer').hide();
 
 	$('#downArrow').on('click', function() {
-		// $('#about').show();
-		// $('footer').show();
-		// $('#socialMedia').show();
-		// $('#contact').show();
-		// $('#portfolio').show();
-		$('HTML, BODY').animate({ scrollTop: aboutOffset }, 1500);
-		//$('header').delay(1500).fadeIn(500);
+	$('HTML, BODY').animate({ scrollTop: aboutOffset }, 1500);
 	});
 	// *********************************
 	// ******* on click client work *******
@@ -85,14 +69,3 @@ $(document).ready(function() {
 	});
 	// ************************************
 });
-
-
-
-
-
-
-
-
-
-
-

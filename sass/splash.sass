@@ -37,6 +37,12 @@
 			font-size: 4em
 			margin-top: 50px 
 			cursor: pointer
+			transition: all .3s
+
+			&:hover
+				text-shadow: 0 0 20px rgba(255, 255, 255, .8)
+
+
 
 
 @media screen and (max-width: 640px)
@@ -47,3 +53,161 @@
 
 			h1
 				font-size: 2.5em
+
+#downArrow
+  animation: bounce linear $bounceTimer
+  animation-iteration-count: infinite
+  transform-origin: 50% 50%
+  -webkit-animation: bounce linear $bounceTimer
+  -webkit-animation-iteration-count: infinite
+  -webkit-transform-origin: 50% 50%
+  -moz-animation: bounce linear $bounceTimer
+  -moz-animation-iteration-count: infinite
+  -moz-transform-origin: 50% 50%
+  -o-animation: bounce linear $bounceTimer
+  -o-animation-iteration-count: infinite
+  -o-transform-origin: 50% 50%
+  -ms-animation: bounce linear $bounceTimer
+  -ms-animation-iteration-count: infinite
+  -ms-transform-origin: 50% 50%
+
+
+@keyframes bounce
+	0% 
+		-webkit-transform: translate(0px, 0px)   
+
+	15%
+		-webkit-transform: translate(0px, 5.5px)
+
+	25%
+		-webkit-transform: translate(0px, 7px)
+
+	35%
+  		-webkit-transform: translate(0px, 5.5px)
+
+	50%
+		-webkit-transform: translate(0px, 0px)
+
+	65%
+		-webkit-transform: translate(0px, -5.5px)
+
+	75%
+		-webkit-transform: translate(0px, -7px)
+
+	85%
+		-webkit-transform: translate(0px, -5.5px)
+
+	100% 
+		-webkit-transform: translate(0px, 0px)     
+
+@-moz-keyframes bounce
+	0% 
+		-webkit-transform: translate(0px, 0px)   
+
+	15%
+		-webkit-transform: translate(0px, 5.5px)
+
+	25%
+		-webkit-transform: translate(0px, 7px)
+
+	35%
+  		-webkit-transform: translate(0px, 5.5px)
+
+	50%
+		-webkit-transform: translate(0px, 0px)
+
+	65%
+		-webkit-transform: translate(0px, -5.5px)
+
+	75%
+		-webkit-transform: translate(0px, -7px)
+
+	85%
+		-webkit-transform: translate(0px, -5.5px)
+
+	100% 
+		-webkit-transform: translate(0px, 0px)   
+
+@-webkit-keyframes bounce 
+	0% 
+		-webkit-transform: translate(0px, 0px)   
+
+	15%
+		-webkit-transform: translate(0px, 5.5px)
+
+	25%
+		-webkit-transform: translate(0px, 7px)
+
+	35%
+  		-webkit-transform: translate(0px, 5.5px)
+
+	50%
+		-webkit-transform: translate(0px, 0px)
+
+	65%
+		-webkit-transform: translate(0px, -5.5px)
+
+	75%
+		-webkit-transform: translate(0px, -7px)
+
+	85%
+		-webkit-transform: translate(0px, -5.5px)
+
+	100% 
+		-webkit-transform: translate(0px, 0px)   
+
+@-o-keyframes bounce 
+	0% 
+		-webkit-transform: translate(0px, 0px)   
+
+	15%
+		-webkit-transform: translate(0px, 5.5px)
+
+	25%
+		-webkit-transform: translate(0px, 7px)
+
+	35%
+  		-webkit-transform: translate(0px, 5.5px)
+
+	50%
+		-webkit-transform: translate(0px, 0px)
+
+	65%
+		-webkit-transform: translate(0px, -5.5px)
+
+	75%
+		-webkit-transform: translate(0px, -7px)
+
+	85%
+		-webkit-transform: translate(0px, -5.5px)
+
+	100% 
+		-webkit-transform: translate(0px, 0px)    
+
+@-ms-keyframes bounce 
+	0% 
+		-webkit-transform: translate(0px, 0px)   
+
+	15%
+		-webkit-transform: translate(0px, 5.5px)
+
+	25%
+		-webkit-transform: translate(0px, 7px)
+
+	35%
+  		-webkit-transform: translate(0px, 5.5px)
+
+	50%
+		-webkit-transform: translate(0px, 0px)
+
+	65%
+		-webkit-transform: translate(0px, -5.5px)
+
+	75%
+		-webkit-transform: translate(0px, -7px)
+
+	85%
+		-webkit-transform: translate(0px, -5.5px)
+
+	100% 
+		-webkit-transform: translate(0px, 0px)
