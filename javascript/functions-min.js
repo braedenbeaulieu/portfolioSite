@@ -49,10 +49,33 @@ $(document).ready(function() {
 		} else if(scrollTop < 550) {
 			$('header').fadeOut();
 		}
+
+		// fade in stuff
+		if(scrollTop >= aboutOffset - 150) {
+			$('#education').animate({opacity: '1'}, 500);
+			$('#skills').delay(400).animate({opacity: '1'}, 500);
+			$('#achievements').delay(800).animate({opacity: '1'}, 500);
+		} 
+		if(scrollTop >= portfolioOffset - 350) {
+			$('#portfolio-container').animate({opacity: '1'}, 20);
+		}
+		if(scrollTop >= contactOffset - 350) {
+			$('#contact-container').animate({opacity: '1'}, 500);
+		}
+		if(scrollTop >= socialOffset - 550) {
+			$('#twitter').animate({opacity: '1'}, 500);
+			$('#linkedin').delay(400).animate({opacity: '1'}, 500);
+			$('#behance').delay(800).animate({opacity: '1'}, 500);
+		}
+
 	});
 
 	// ******* fade in scrolling *******
 	var aboutOffset = $('#about').offset().top;
+	var portfolioOffset = $('#portfolio').offset().top;
+	var contactOffset = $('#contact').offset().top;
+	var socialOffset = $('#socialMedia').offset().top;
+
 	$('header').hide();
 
 	$('#downArrow').on('click', function() {
