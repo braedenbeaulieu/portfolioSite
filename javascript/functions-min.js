@@ -90,7 +90,9 @@ $(document).ready(function() {
 	$('#portfolio #portfolio-container #client div:nth-of-type(2)').on('click', function() {
 		window.location.href = "http://www.handiy.ca";
 	});
+
+	$('#portfolio #portfolio-container #client div:nth-of-type(3)').on('click', function() {
+		window.location.href = "http://www.firehousecatering.ca";
+	});
 	// ************************************
 });
-
-
